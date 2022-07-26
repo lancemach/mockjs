@@ -1,0 +1,34 @@
+{
+  "git.ignoreMissingGitWarning": true,
+  "explorer.confirmDelete": false,
+  "vetur.validation.template": false,
+  "eslint.autoFixOnSave": true, // eslint在保存文件时自动格式化代码
+  "eslint.options": {
+    "extensions": [".js", ".vue"]
+  },
+  "eslint.validate": [
+    "javascript",
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    "html",
+    "vue"
+  ],
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "vue": "html",
+    "vue-html": "html"
+  },
+  "editor.snippetSuggestions": "top",
+  "[xml]": {
+    "editor.defaultFormatter": "fabianlauer.vs-code-xml-format"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "nuxt.isNuxtApp": false
+}
